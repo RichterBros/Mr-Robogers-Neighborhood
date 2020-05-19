@@ -24,14 +24,16 @@ $(document).ready(function(){
            
            newString = newArr.join().split(',') 
           
-           newString.forEach(function(){
-            
+           for (i = 0; i < newString.length; i ++){
+            if (newString[i].includes("1") ){
+                newString[i] = "beep"
+            }
 
-           });
+        }
            
            console.log(newString)
             
-            
+        }
            
            
         
