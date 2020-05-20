@@ -2,3 +2,17 @@
     color: #3a3838;
     text-align: center;
   }
+
+  img {
+    width:450px;
+    height:auto;
+    border-radius:5px;
+    border-width:1px;
+    overflow:none;
+    border-color:#428bca;
+    border-style:solid;
+  }
+
+  #roboRogers {
+    display: none;
+  }
