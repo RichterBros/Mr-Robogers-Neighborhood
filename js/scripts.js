@@ -16,12 +16,14 @@ function Numbers(userInput, newArr, newString) {
     this.counter = 0;
 }
 
-var number = new Numbers(0, [], "")
+var number = new Numbers()
 
 Numbers.prototype.numberArray = function () {
     this.counter += 1;
     this.userInput = parseInt($("#userInput").val());
-
+    this.newArr = [];
+    this.newString = "";
+    
     if (isNaN(this.userInput)) {
         console.log("not a number")
         $("#results").text("Please enter a number")
