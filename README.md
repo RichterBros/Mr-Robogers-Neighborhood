@@ -12,17 +12,17 @@
 
 ## Specs
 The program returns a range of numbers from 0 to the users inputted number:
-    * Input: "4"
-    * Output: "0, 1, 2, 3, 4"
+* Input: "4"
+* Output: "0, 1, 2, 3, 4"
 
 Exceptions: 
-    * Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-    * Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-    * Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?."
+* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+* Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?."
 
 If no number is entered, a promt will display asking the user to enter a number.
 
-Everytime the user clicks on the "submit your number!" button, page will cycle through threee different images.
+Everytime the user clicks on the "submit your number!" button, page will cycle through three different images.
 
 The reset button refreshes the page.
 
