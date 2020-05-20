@@ -24,7 +24,7 @@ If no number is entered, a promt will display asking the user to enter a number.
 
 Everytime the user clicks on the "submit your number!" button, page will cycle through three different images.
 
-The reset button refreshes the page.
+The "reset" button refreshes the page.
 
 
 ## Setup/Installation Requirements
