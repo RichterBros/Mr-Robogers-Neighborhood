@@ -1,16 +1,12 @@
 $(document).ready(function () {
-    
+
     $("#reset").click(function () {
         location.reload();
-       
-       
-    
     });
 
     $("#submit").click(function () {
         number.numberArray();
     });
-    
 });
 
 function Numbers(userInput, newArr, newString) {
@@ -22,7 +18,6 @@ function Numbers(userInput, newArr, newString) {
 
 var number = new Numbers(0, [], "")
 
-
 Numbers.prototype.numberArray = function () {
     this.counter += 1;
     this.userInput = parseInt($("#userInput").val());
@@ -32,22 +27,20 @@ Numbers.prototype.numberArray = function () {
         $("#results").text("Please enter a number")
     } else {
 
-        if (this.counter === 1){
+        if (this.counter === 1) {
             $("#roboRogers").show();
             $("#roboRogers2").hide();
             $("#roboRogers3").hide();
-        }else if (this.counter === 2){
+        } else if (this.counter === 2) {
             $("#roboRogers").hide();
             $("#roboRogers2").show();
             $("#roboRogers3").hide();
-        }else if (this.counter === 3){
+        } else if (this.counter === 3) {
             $("#roboRogers").hide();
             $("#roboRogers2").hide();
             $("#roboRogers3").show();
             this.counter = 0;
         }
-            
-        
 
         for (i = 0; i < this.userInput + 1; i++) {
             this.newArr.push(i)
@@ -64,16 +57,10 @@ Numbers.prototype.numberArray = function () {
                 this.newString[i] = "beep!"
             }
         }
-
-
-
-        console.log(this.counter)
-        console.log(this.userInput)
-        console.log(this.newString)
+        
         $("#results").text(this.newString)
         this.newArr = []
     }
-
 }
 
 
